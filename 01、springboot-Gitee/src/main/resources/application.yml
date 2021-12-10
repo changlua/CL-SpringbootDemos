@@ -1,0 +1,16 @@
+# 设置默认运行端口
+server:
+  port: 8081
+
+# max-file-size:servlet每次接收单个文件的最大容量；max-request-size：指的是单次请求接收的文件最大容量
+spring:
+  servlet:
+    multipart:
+      max-file-size: 10MB
+      max-request-size: 100MB
+
+# 自定义
+# gitee上传的文件路径
+gitee:
+  upload:
+    path: test1/
