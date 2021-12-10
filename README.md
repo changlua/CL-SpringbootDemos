@@ -9,23 +9,15 @@ Springboot实战系列 DEMO
 
 #### 安装教程
 
-1.  xxxx
-2.  xxxx
-3.  xxxx
+1.  
 
 #### 使用说明
 
-1.  xxxx
-2.  xxxx
-3.  xxxx
+01、springboot-Gitee：集成Gitee上传、删除文件功能
 
 #### 参与贡献
 
-1.  Fork 本仓库
-2.  新建 Feat_xxx 分支
-3.  提交代码
-4.  新建 Pull Request
-
+长路
 
 #### 特技
 
