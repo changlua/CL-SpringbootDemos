@@ -21,11 +21,13 @@ public class GiteeImgBedUtil {
      * 码云私人令牌
      */
     private static final String ACCESS_TOKEN = "";  //这里不展示我自己的了，需要你自己补充
+    
 
     /**
      * 码云个人空间名
      */
-    private static final String OWNER = "";
+    private static final String OWNER = ""; 
+
 
     /**
      * 上传指定仓库
