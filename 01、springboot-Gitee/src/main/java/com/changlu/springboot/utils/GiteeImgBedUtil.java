@@ -20,21 +20,21 @@ public class GiteeImgBedUtil {
     /**
      * 码云私人令牌
      */
-    private static final String ACCESS_TOKEN = "e3c0fd298760eb36b55e1880347f3664";  //这里不展示我自己的了，需要你自己补充
+    private static final String ACCESS_TOKEN = "";  //这里不展示我自己的了，需要你自己补充
 
     /**
      * 码云个人空间名
      */
-    private static final String OWNER = "codercl";
+    private static final String OWNER = "";
 
     /**
      * 上传指定仓库
      */
-    private static final String REPO = "drawing-bed";
+    private static final String REPO = "";
 
 
     /**
-     * 默认上传时指定存放图片路径（无配置信息）
+     * 默认上传时指定存放图片路径
      */
     public static final String PATH = "test1/";
 
