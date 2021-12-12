@@ -7,9 +7,9 @@ Springboot实战系列 DEMO
 软件架构说明
 
 
-#### 安装教程
+#### 使用教程
 
-1.  
+01、springboot-Gitee：[01、Springboot实战：实现Gitee图床上传及删除(含完整代码)](https://blog.csdn.net/cl939974883/article/details/119304334)
 
 #### 使用说明
 
