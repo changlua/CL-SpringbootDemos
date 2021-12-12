@@ -1,7 +1,7 @@
 package com.changlu.springboot.utils;
 
 /**
- * @ClassName StringUtils
+ * @ClassName WebTools
  * @Author ChangLu
  * @Date 2021/10/5 23:35
  * @Description 常用工具

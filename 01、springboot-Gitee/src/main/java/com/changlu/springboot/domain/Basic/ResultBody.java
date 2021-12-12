@@ -7,7 +7,7 @@ import lombok.Data;
  * @ClassName ResultBody
  * @Author ChangLu
  * @Date 2021/9/21 9:55
- * @Description TODO
+ * @Description 响应体封装
  */
 @Data
 public class ResultBody {
@@ -50,7 +50,7 @@ public class ResultBody {
     /**
      * 成功
      * @param data 数据
-     * @return xyz.changlu.util.ResultBody
+     * @return ResultBody
      */
     public static ResultBody success(Object data){
         ResultBody resultBody = new ResultBody(CommonEnum.SUCCESS);
@@ -61,7 +61,7 @@ public class ResultBody {
     /**
      * 错误
      * @param baseErrorInfoInterface 枚举类
-     * @return xyz.changlu.util.ResultBody
+     * @return ResultBody
      */
     public static ResultBody fail(BaseExceptionInfoInterface baseErrorInfoInterface){
         ResultBody resultBody = new ResultBody(baseErrorInfoInterface);
@@ -86,15 +86,13 @@ public class ResultBody {
      * 错误
      * @param code 状态码
      * @param message 描述信息
-     * @return xyz.changlu.util.ResultBody
+     * @return ResultBody
      */
     public static ResultBody fail(Integer code,String message){
         ResultBody resultBody = new ResultBody(code,message);
         resultBody.setResult(null);
         return resultBody;
     }
-
-
 
 
 }

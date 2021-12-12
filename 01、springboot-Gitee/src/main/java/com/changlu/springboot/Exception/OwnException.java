@@ -5,7 +5,7 @@ package com.changlu.springboot.Exception;
  * @ClassName OwnException
  * @Author ChangLu
  * @Date 2021/7/29 23:40
- * @Description TODO
+ * @Description 自定义异常类
  */
 public class OwnException extends RuntimeException{
 

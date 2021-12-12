@@ -8,7 +8,7 @@ import java.io.Serializable;
  * @ClassName BasicRequest
  * @Author ChangLu
  * @Date 2021/12/10 23:53
- * @Description TODO
+ * @Description 请求对象封装
  */
 @Data
 public class BasicRequest implements Serializable {

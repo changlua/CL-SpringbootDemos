@@ -13,7 +13,7 @@ import javax.servlet.http.HttpServletRequest;
  * @ClassName GlobalExceptionHandler
  * @Author ChangLu
  * @Date 2021/12/11 0:04
- * @Description TODO
+ * @Description 全局异常捕获器
  */
 @RestControllerAdvice
 @Slf4j

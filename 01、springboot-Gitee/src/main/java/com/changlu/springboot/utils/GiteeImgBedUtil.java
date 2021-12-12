@@ -12,7 +12,7 @@ import java.util.UUID;
  * @ClassName UploadGiteeImgBedUtil
  * @Author ChangLu
  * @Date 2021/12/10 23:41
- * @Description TODO
+ * @Description Gitee图床工具类
  */
 public class GiteeImgBedUtil {
 
@@ -59,7 +59,7 @@ public class GiteeImgBedUtil {
     private static String createUploadFileUrl(String originalFilename,String path){
         String targetPath = path == null ? GiteeImgBedUtil.PATH : path;
         //获取文件后缀
-        String suffix = FileUtils.getFileSuffix(originalFilename);
+        String suffix = FileUtil.getFileSuffix(originalFilename);
         //拼接存储的图片名称
         String fileName = System.currentTimeMillis()+"_"+ UUID.randomUUID().toString()+suffix;
         //填充请求路径
